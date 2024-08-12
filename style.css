@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    overflow: hidden;
+}
+.container{
+    margin: auto;
+    border-radius: 16px;
+    width: 90%;
+    margin-top: 15%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.maj{
+    text-transform: uppercase ;
+    letter-spacing: 2px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+h1{
+    font-family: Fraunces;
+    font-weight: 700;
+}
+.para{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    color: hsl(228, 12%, 48%);
+}
+.desc{
+    padding: 5%;
+}
+.cost{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+}
+.new{
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 27px;
+}
+.old{
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    text-decoration: line-through;
+    transform: translateX(10px);
+}
+.button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: -15px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: hsl(157, 37%, 20%);
+}
+.button img{
+    width: 18px;
+    height: 18px;
+}
