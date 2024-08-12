@@ -1,6 +1,5 @@
 body{
     background-color: hsl(30, 38%, 92%);
-    overflow: hidden;
 }
 .container{
     margin: auto;
